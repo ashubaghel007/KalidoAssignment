@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46ADCBDB27E100AF00896B95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ADCBDA27E100AF00896B95 /* AppDelegate.swift */; };
+		46ADCBDD27E100AF00896B95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ADCBDC27E100AF00896B95 /* ViewController.swift */; };
+		46ADCBE027E100AF00896B95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46ADCBDE27E100AF00896B95 /* Main.storyboard */; };
+		46ADCBE227E100B200896B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46ADCBE127E100B200896B95 /* Assets.xcassets */; };
+		46ADCBE527E100B200896B95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46ADCBE327E100B200896B95 /* LaunchScreen.storyboard */; };
+		46ADCBF027E100B200896B95 /* Kalido_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ADCBEF27E100B200896B95 /* Kalido_AssignmentTests.swift */; };
+		46ADCBFB27E100B200896B95 /* Kalido_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ADCBFA27E100B200896B95 /* Kalido_AssignmentUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46ADCBEC27E100B200896B95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46ADCBCF27E100AF00896B95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46ADCBD627E100AF00896B95;
+			remoteInfo = Kalido_Assignment;
+		};
+		46ADCBF727E100B200896B95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46ADCBCF27E100AF00896B95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46ADCBD627E100AF00896B95;
+			remoteInfo = Kalido_Assignment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46ADCBD727E100AF00896B95 /* Kalido_Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kalido_Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46ADCBDA27E100AF00896B95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46ADCBDC27E100AF00896B95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46ADCBDF27E100AF00896B95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46ADCBE127E100B200896B95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46ADCBE427E100B200896B95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46ADCBE627E100B200896B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46ADCBEB27E100B200896B95 /* Kalido_AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kalido_AssignmentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46ADCBEF27E100B200896B95 /* Kalido_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kalido_AssignmentTests.swift; sourceTree = "<group>"; };
+		46ADCBF127E100B200896B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46ADCBF627E100B200896B95 /* Kalido_AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kalido_AssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46ADCBFA27E100B200896B95 /* Kalido_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kalido_AssignmentUITests.swift; sourceTree = "<group>"; };
+		46ADCBFC27E100B200896B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46ADCBD427E100AF00896B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46ADCBE827E100B200896B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46ADCBF327E100B200896B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46ADCBCE27E100AF00896B95 = {
+			isa = PBXGroup;
+			children = (
+				46ADCBD927E100AF00896B95 /* Kalido_Assignment */,
+				46ADCBEE27E100B200896B95 /* Kalido_AssignmentTests */,
+				46ADCBF927E100B200896B95 /* Kalido_AssignmentUITests */,
+				46ADCBD827E100AF00896B95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46ADCBD827E100AF00896B95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46ADCBD727E100AF00896B95 /* Kalido_Assignment.app */,
+				46ADCBEB27E100B200896B95 /* Kalido_AssignmentTests.xctest */,
+				46ADCBF627E100B200896B95 /* Kalido_AssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46ADCBD927E100AF00896B95 /* Kalido_Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				46ADCBDA27E100AF00896B95 /* AppDelegate.swift */,
+				46ADCBDC27E100AF00896B95 /* ViewController.swift */,
+				46ADCBDE27E100AF00896B95 /* Main.storyboard */,
+				46ADCBE127E100B200896B95 /* Assets.xcassets */,
+				46ADCBE327E100B200896B95 /* LaunchScreen.storyboard */,
+				46ADCBE627E100B200896B95 /* Info.plist */,
+			);
+			path = Kalido_Assignment;
+			sourceTree = "<group>";
+		};
+		46ADCBEE27E100B200896B95 /* Kalido_AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				46ADCBEF27E100B200896B95 /* Kalido_AssignmentTests.swift */,
+				46ADCBF127E100B200896B95 /* Info.plist */,
+			);
+			path = Kalido_AssignmentTests;
+			sourceTree = "<group>";
+		};
+		46ADCBF927E100B200896B95 /* Kalido_AssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46ADCBFA27E100B200896B95 /* Kalido_AssignmentUITests.swift */,
+				46ADCBFC27E100B200896B95 /* Info.plist */,
+			);
+			path = Kalido_AssignmentUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46ADCBD627E100AF00896B95 /* Kalido_Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46ADCBFF27E100B200896B95 /* Build configuration list for PBXNativeTarget "Kalido_Assignment" */;
+			buildPhases = (
+				46ADCBD327E100AF00896B95 /* Sources */,
+				46ADCBD427E100AF00896B95 /* Frameworks */,
+				46ADCBD527E100AF00896B95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kalido_Assignment;
+			productName = Kalido_Assignment;
+			productReference = 46ADCBD727E100AF00896B95 /* Kalido_Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46ADCBEA27E100B200896B95 /* Kalido_AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46ADCC0227E100B200896B95 /* Build configuration list for PBXNativeTarget "Kalido_AssignmentTests" */;
+			buildPhases = (
+				46ADCBE727E100B200896B95 /* Sources */,
+				46ADCBE827E100B200896B95 /* Frameworks */,
+				46ADCBE927E100B200896B95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46ADCBED27E100B200896B95 /* PBXTargetDependency */,
+			);
+			name = Kalido_AssignmentTests;
+			productName = Kalido_AssignmentTests;
+			productReference = 46ADCBEB27E100B200896B95 /* Kalido_AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46ADCBF527E100B200896B95 /* Kalido_AssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46ADCC0527E100B200896B95 /* Build configuration list for PBXNativeTarget "Kalido_AssignmentUITests" */;
+			buildPhases = (
+				46ADCBF227E100B200896B95 /* Sources */,
+				46ADCBF327E100B200896B95 /* Frameworks */,
+				46ADCBF427E100B200896B95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46ADCBF827E100B200896B95 /* PBXTargetDependency */,
+			);
+			name = Kalido_AssignmentUITests;
+			productName = Kalido_AssignmentUITests;
+			productReference = 46ADCBF627E100B200896B95 /* Kalido_AssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46ADCBCF27E100AF00896B95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = AshishBaghel;
+				TargetAttributes = {
+					46ADCBD627E100AF00896B95 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					46ADCBEA27E100B200896B95 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 46ADCBD627E100AF00896B95;
+					};
+					46ADCBF527E100B200896B95 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 46ADCBD627E100AF00896B95;
+					};
+				};
+			};
+			buildConfigurationList = 46ADCBD227E100AF00896B95 /* Build configuration list for PBXProject "Kalido_Assignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46ADCBCE27E100AF00896B95;
+			productRefGroup = 46ADCBD827E100AF00896B95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46ADCBD627E100AF00896B95 /* Kalido_Assignment */,
+				46ADCBEA27E100B200896B95 /* Kalido_AssignmentTests */,
+				46ADCBF527E100B200896B95 /* Kalido_AssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46ADCBD527E100AF00896B95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46ADCBE527E100B200896B95 /* LaunchScreen.storyboard in Resources */,
+				46ADCBE227E100B200896B95 /* Assets.xcassets in Resources */,
+				46ADCBE027E100AF00896B95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46ADCBE927E100B200896B95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46ADCBF427E100B200896B95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46ADCBD327E100AF00896B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46ADCBDD27E100AF00896B95 /* ViewController.swift in Sources */,
+				46ADCBDB27E100AF00896B95 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46ADCBE727E100B200896B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46ADCBF027E100B200896B95 /* Kalido_AssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46ADCBF227E100B200896B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46ADCBFB27E100B200896B95 /* Kalido_AssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46ADCBED27E100B200896B95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46ADCBD627E100AF00896B95 /* Kalido_Assignment */;
+			targetProxy = 46ADCBEC27E100B200896B95 /* PBXContainerItemProxy */;
+		};
+		46ADCBF827E100B200896B95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46ADCBD627E100AF00896B95 /* Kalido_Assignment */;
+			targetProxy = 46ADCBF727E100B200896B95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46ADCBDE27E100AF00896B95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46ADCBDF27E100AF00896B95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46ADCBE327E100B200896B95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46ADCBE427E100B200896B95 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46ADCBFD27E100B200896B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46ADCBFE27E100B200896B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46ADCC0027E100B200896B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Kalido_Assignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ashish.Kalido-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46ADCC0127E100B200896B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Kalido_Assignment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ashish.Kalido-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		46ADCC0327E100B200896B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Kalido_AssignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ashish.Kalido-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kalido_Assignment.app/Kalido_Assignment";
+			};
+			name = Debug;
+		};
+		46ADCC0427E100B200896B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Kalido_AssignmentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ashish.Kalido-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kalido_Assignment.app/Kalido_Assignment";
+			};
+			name = Release;
+		};
+		46ADCC0627E100B200896B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Kalido_AssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ashish.Kalido-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kalido_Assignment;
+			};
+			name = Debug;
+		};
+		46ADCC0727E100B200896B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Kalido_AssignmentUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ashish.Kalido-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Kalido_Assignment;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46ADCBD227E100AF00896B95 /* Build configuration list for PBXProject "Kalido_Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46ADCBFD27E100B200896B95 /* Debug */,
+				46ADCBFE27E100B200896B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46ADCBFF27E100B200896B95 /* Build configuration list for PBXNativeTarget "Kalido_Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46ADCC0027E100B200896B95 /* Debug */,
+				46ADCC0127E100B200896B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46ADCC0227E100B200896B95 /* Build configuration list for PBXNativeTarget "Kalido_AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46ADCC0327E100B200896B95 /* Debug */,
+				46ADCC0427E100B200896B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46ADCC0527E100B200896B95 /* Build configuration list for PBXNativeTarget "Kalido_AssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46ADCC0627E100B200896B95 /* Debug */,
+				46ADCC0727E100B200896B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46ADCBCF27E100AF00896B95 /* Project object */;
+}

@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		46ADCBDB27E100AF00896B95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ADCBDA27E100AF00896B95 /* AppDelegate.swift */; };
-		46ADCBDD27E100AF00896B95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ADCBDC27E100AF00896B95 /* ViewController.swift */; };
 		46ADCBE027E100AF00896B95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46ADCBDE27E100AF00896B95 /* Main.storyboard */; };
 		46ADCBE227E100B200896B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46ADCBE127E100B200896B95 /* Assets.xcassets */; };
 		46ADCBE527E100B200896B95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46ADCBE327E100B200896B95 /* LaunchScreen.storyboard */; };
 		46ADCBF027E100B200896B95 /* Kalido_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ADCBEF27E100B200896B95 /* Kalido_AssignmentTests.swift */; };
 		46ADCBFB27E100B200896B95 /* Kalido_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ADCBFA27E100B200896B95 /* Kalido_AssignmentUITests.swift */; };
+		46ADCC0B27E1014700896B95 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ADCC0A27E1014700896B95 /* ListViewController.swift */; };
+		46ADCC1327E1069900896B95 /* Article.json in Resources */ = {isa = PBXBuildFile; fileRef = 46ADCC1227E1069900896B95 /* Article.json */; };
+		46ADCC1527E1073900896B95 /* ArticleTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ADCC1427E1073900896B95 /* ArticleTableCell.swift */; };
+		46ADCC1727E12BB200896B95 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ADCC1627E12BB200896B95 /* Article.swift */; };
+		46ADCC1B27E12CC900896B95 /* ListItemDisplayable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ADCC1A27E12CC900896B95 /* ListItemDisplayable.swift */; };
+		46ADCC1F27E1345600896B95 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ADCC1E27E1345600896B95 /* NetworkClient.swift */; };
+		46ADCC2127E13A6000896B95 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ADCC2027E13A6000896B95 /* Service.swift */; };
+		46ADCC2327E3D9B100896B95 /* ArticleDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46ADCC2227E3D9B100896B95 /* ArticleDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,6 @@
 /* Begin PBXFileReference section */
 		46ADCBD727E100AF00896B95 /* Kalido_Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kalido_Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		46ADCBDA27E100AF00896B95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		46ADCBDC27E100AF00896B95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		46ADCBDF27E100AF00896B95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		46ADCBE127E100B200896B95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46ADCBE427E100B200896B95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,14 @@
 		46ADCBF627E100B200896B95 /* Kalido_AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Kalido_AssignmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46ADCBFA27E100B200896B95 /* Kalido_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kalido_AssignmentUITests.swift; sourceTree = "<group>"; };
 		46ADCBFC27E100B200896B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46ADCC0A27E1014700896B95 /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		46ADCC1227E1069900896B95 /* Article.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Article.json; sourceTree = "<group>"; };
+		46ADCC1427E1073900896B95 /* ArticleTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTableCell.swift; sourceTree = "<group>"; };
+		46ADCC1627E12BB200896B95 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		46ADCC1A27E12CC900896B95 /* ListItemDisplayable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemDisplayable.swift; sourceTree = "<group>"; };
+		46ADCC1E27E1345600896B95 /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		46ADCC2027E13A6000896B95 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		46ADCC2227E3D9B100896B95 /* ArticleDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +111,13 @@
 		46ADCBD927E100AF00896B95 /* Kalido_Assignment */ = {
 			isa = PBXGroup;
 			children = (
-				46ADCBDA27E100AF00896B95 /* AppDelegate.swift */,
-				46ADCBDC27E100AF00896B95 /* ViewController.swift */,
-				46ADCBDE27E100AF00896B95 /* Main.storyboard */,
+				46ADCC1D27E1343300896B95 /* NetworkClient */,
+				46ADCC1127E101E600896B95 /* Resources */,
+				46ADCC0F27E101A200896B95 /* Storyboard */,
+				46ADCC0D27E1017E00896B95 /* View */,
+				46ADCC0827E100EA00896B95 /* Controller */,
+				46ADCC0C27E1016000896B95 /* Model */,
+				46ADCC1027E101CF00896B95 /* AppDelegate */,
 				46ADCBE127E100B200896B95 /* Assets.xcassets */,
 				46ADCBE327E100B200896B95 /* LaunchScreen.storyboard */,
 				46ADCBE627E100B200896B95 /* Info.plist */,
@@ -123,6 +141,81 @@
 				46ADCBFC27E100B200896B95 /* Info.plist */,
 			);
 			path = Kalido_AssignmentUITests;
+			sourceTree = "<group>";
+		};
+		46ADCC0827E100EA00896B95 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				46ADCC0A27E1014700896B95 /* ListViewController.swift */,
+				46ADCC2227E3D9B100896B95 /* ArticleDetailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		46ADCC0C27E1016000896B95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46ADCC1627E12BB200896B95 /* Article.swift */,
+				46ADCC1C27E12CE900896B95 /* Protocol */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		46ADCC0D27E1017E00896B95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				46ADCC0E27E1018F00896B95 /* TableViewCells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		46ADCC0E27E1018F00896B95 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				46ADCC1427E1073900896B95 /* ArticleTableCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		46ADCC0F27E101A200896B95 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				46ADCBDE27E100AF00896B95 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		46ADCC1027E101CF00896B95 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				46ADCBDA27E100AF00896B95 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		46ADCC1127E101E600896B95 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				46ADCC1227E1069900896B95 /* Article.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		46ADCC1C27E12CE900896B95 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				46ADCC1A27E12CC900896B95 /* ListItemDisplayable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		46ADCC1D27E1343300896B95 /* NetworkClient */ = {
+			isa = PBXGroup;
+			children = (
+				46ADCC1E27E1345600896B95 /* NetworkClient.swift */,
+				46ADCC2027E13A6000896B95 /* Service.swift */,
+			);
+			path = NetworkClient;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +322,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46ADCC1327E1069900896B95 /* Article.json in Resources */,
 				46ADCBE527E100B200896B95 /* LaunchScreen.storyboard in Resources */,
 				46ADCBE227E100B200896B95 /* Assets.xcassets in Resources */,
 				46ADCBE027E100AF00896B95 /* Main.storyboard in Resources */,
@@ -256,8 +350,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46ADCBDD27E100AF00896B95 /* ViewController.swift in Sources */,
+				46ADCC1727E12BB200896B95 /* Article.swift in Sources */,
+				46ADCC2127E13A6000896B95 /* Service.swift in Sources */,
+				46ADCC0B27E1014700896B95 /* ListViewController.swift in Sources */,
+				46ADCC1527E1073900896B95 /* ArticleTableCell.swift in Sources */,
+				46ADCC1B27E12CC900896B95 /* ListItemDisplayable.swift in Sources */,
+				46ADCC1F27E1345600896B95 /* NetworkClient.swift in Sources */,
 				46ADCBDB27E100AF00896B95 /* AppDelegate.swift in Sources */,
+				46ADCC2327E3D9B100896B95 /* ArticleDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
